@@ -32,24 +32,63 @@
 		</ul>
 	</nav>
 	<br/>
-	<h2>Información Personal</h2>
-	<img src="img/html-logo.png" width="120" height="120" title="HTML5">
-	<p>Me considero un profesional responsable, honesto, ordenado, con conocimientos avanzados en Ofimatica. Me gusta aprender dia a dia y cumplir mis objetivos laborales y personales, con capacidad para trabajar en equipo.</p>
-	<h3>Idiomas</h3>
-	<ul>
-		<li>Español</li>
-			<ul>
-				<li>Lectura 100%</li>
-				<li>Habla 100%</li>
-				<li>Escritura 100%</li>
-			</ul>
-		<li>Ingles</li>
-			<ul>
-				<li>Lectura 60%</li>
-				<li>Habla 40%</li>
-				<li>Escritura 50%</li>
-			</ul>
-	</ul>
+	<h2>Educación</h2>
+	<table>
+		<tr>
+			<th>Año</th>
+			<th>Instituto</th>
+			<th>Lugar</th>
+			<th>Completo?</th>
+		</tr>
+		<tr>
+			<td>2000</td>
+			<td>Exitos de Anach</td>
+			<td>Choloma, Cortes</td>
+			<td>Si</td>
+		</tr>
+		<tr>
+			<td>2008</td>
+			<td>Manuel Pagan Lozano</td>
+			<td>Choloma, Cortes</td>
+			<td>Si</td>
+		</tr>
+		<tr>
+			<td>2012</td>
+			<td>Unitec</td>
+			<td>San Pedro Sula</td>
+			<td>No</td>
+		</tr>
+	</table>
+	<h3>Agragar Estudios</h3>
+	<form>
+		<label>Año:</label>
+		<input list="anios" name="anio">
+			<datalist id="anios">
+				<option value="2013">
+				<option value="2014">
+				<option value="2015">
+				<option value="2016">
+				<option value="2017">
+				<option value="2018">
+			</datalist>
+		<br/>
+		<label>Instituto:</label>
+		<input type="text" name="Instituto" placeholder="Ejem. Unitec" required>
+		<br/>
+		<label>Lugar:</label>
+		<textarea rows="3" cols="30">
+			
+		</textarea>
+		<br/>
+		<label>Se Completo?</label>
+		<input type="radio" name="yn" id="yn1" value="si">
+		<label for="si">Si</label>
+		<input type="radio" name="yn" id="yn2" value="no">
+		<label for="no">No</label>
+		<br/>
+		<input type="submit" name="submit" value="Enviar">
+
+	</form>
 </body>
 <footer>
 	<h3>Contacto</h3>
