@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog_Musica</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
     <div class="container">
@@ -14,15 +14,23 @@
         <div class="col-sm-12">
           <header>
             <div class="row">
-              <div class="col-sm-4">
-                <h2>Logo</h2>
+              <div class="col-xm-12 col-sm-12 col-md-4 col-lg-4" >
+                <div id="logoH" class="text-center">
+                  <img src="images/logo.png" class="img-fluid"alt="Logo Blog_Musica">
+                </div>
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-12">
-                <h2 class="float-right">Menu</h2>
-              </div>
+                <div class="col-xm-12 col-sm-12 offset-md-9 col-md-3 offset-lg-9 col-lg-3">
+                  <div id="iconos-header" class="text-center">
+                    <a href="#"><img src="images/fb.png" alt="Facebook" ></a>
+                    <a href="#"><img src="images/goo.png" alt="Facebook" ></a>
+                    <a href="#"><img src="images/tw.png" alt="Facebook" ></a>
+                    <a href="#"><img src="images/mail.png" alt="Facebook" ></a>
+                  </div>
+                </div>
             </div>
+
           </header>
         </div>
       </div>
@@ -54,30 +62,62 @@
       </div>
 
         <!--  -->
-        <br><br>
+
         <div class="clearfix"></div>
         <div class="row">
+
           <div class="col-sm-12 col-md-8 col-lg-8">
               <!-- Contenido POST-->
-              <div class="row">
-                <div class="col-sm-12">
+              <br>
+              
                   <section>
-                    <h2>Titulo del post</h2>
-                    <p>esto sera un texto que tenga muchas palabras de texto para poder simular un parrafo y la verdad ya no se me ocurre nada mas que escribir joder xD ahh ya se.. El Shino se la come toda!</p>
+
+                    <h2>Ricardo Arjona: Hoy me divierto menos, pero las cosas resultan mejor</h2>
+                    <img src="images/post1.jpg" alt="Arjona" class="float-right img-rounded">
+                    <p>Ricardo Arjona promociona una inminente nueva gira por Europa, donde aún puede pasar "inadvertido" este ídolo de masas en América que, en una charla con Efe, rememora sus días previos al estrellato, cuando logró abrir por pura "testarudez" las puertas que reiteradamente le cerraban en las narices.</p>
+                    <p>"(Cuando empecé a tener éxito) me vengué un poco de los portazos. Era muy necio entonces y hubiesen pasado más cosas más pronto si hubiese sido más relaciones públicas. Por eso tuve dificultades para abrir nuevos lugares. No dejo de echar de menos a aquel tipo menos solemne y más burdo, pero, aunque hoy me divierto menos, las cosas resultan regularmente mejor", reconoce.</p>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Comenta:</span>
+                      </div>
+                      <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                    <button class="btn btn-outline-success float-right" type="submit">Enviar</button>
                   </section>
                   <section>
-                    <h2>Titulo del post</h2>
-                    <p>esto sera un texto que tenga muchas palabras de texto para poder simular un parrafo y la verdad ya no se me ocurre nada mas que escribir joder xD ahh ya se.. El Shino se la come toda!</p>
+
+                    <h2>Ricky Martin sorprende a fans de Maluma en concierto de Los Ángeles</h2>
+                    <img src="images/post2.jpg" alt="Ricky" class="img-circle float-left">
+                    <p>Maluma sorprendió a los fanáticos que acudieron a su concierto en Los Ángeles, Estados Unidos, pues contó con la participación de Ricky Martin, con quien interpretó “Vente pa' ca”. (Escuchar Maluma y Jason Derulo lanzan versión bilingüe de canción del mundial).</p>
+                    <p>Esta era una cita importante para Maluma dentro de su “F.A.M.E. Tour”, y por eso contó con Ricky Martin para hacer juntos este sencillo de 2016 con el que cosecharon gran reconocimiento popular. “Vente pa' ca” llegó al número 1 en el Latin Pop Airplay de Billboard en Estados Unidos.</p>
+                    <p>El concierto de Maluma en "F.A.M.E. Tour" comenzó con introducción que incluye una versión rock de su canción "23", seguido por "Corazón”. En la velada también interpreta canciones como "Sin contrato" y "Desde esa noche”.</p>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Comenta:</span>
+                      </div>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>
+                  <button class="btn btn-outline-success float-right" type="submit">Enviar</button>
                   </section>
-                </div>
-              </div>
+
           </div>
+
           <div class="col-sm-12 col-md-4 col-lg-4">
               <!-- Barra Lateral -->
+              <br>
               <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
               </form>
+              <div class="list-group">
+                <br>
+                <h3>Opciones</h3>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">Clasicas</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">Hip Hop</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">Reguae</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">Baladas</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">Rock Clasico</a>
+              </div>
           </div>
         </div>
 
