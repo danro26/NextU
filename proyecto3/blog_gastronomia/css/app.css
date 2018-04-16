@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(249, 197, 129);
+}
+
+header{
+  background-color: rgb(172, 131, 61);
+  height: 100px;
+  opacity: 0.5;
+  -webkit-opacity: 0.5;
+  text-align: right;
+}
+#cuerpo{
+  margin-top: 20px;
+
+}
+#articulos{
+  padding: 5px;
+  background-color: white;
+  text-align: justify;
+}
+#aside{
+  background-color: white;
+  opacity: 0.9;
+  -webkit-opacity: 0.9;
+}
+#aside ul li{
+  padding-bottom: 2px;
+}
+.imgf{
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+.imgf img{
+  width: 100%;
+  border-radius: 10px;
+}
+.user img{
+  width: 70%;
+}
+.comentario{
+  padding: 5px;
+  margin: 5px 5px 5px 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.comentario img{
+  width: 50%;
+}
