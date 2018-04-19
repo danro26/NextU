@@ -1,12 +1,30 @@
+@@media (max-width:899px){
+  .user img{
+    width: 10%;
+  }
+  .comentario img{
+    width: 10%;
+  }
+}
+@media (min-width:900px){
+  .user img{
+    width: 70%;
+  }
+  .comentario img{
+    width: 50%;
+  }
+}
 body{
-  background-color: rgb(249, 197, 129);
+  background-image: url('../images/gastro.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header{
   background-color: rgb(172, 131, 61);
   height: 100px;
-  opacity: 0.5;
-  -webkit-opacity: 0.5;
+  opacity: 0.6;
+  -webkit-opacity: 0.6;
   text-align: right;
 }
 #cuerpo{
@@ -14,14 +32,14 @@ header{
 
 }
 #articulos{
-  padding: 5px;
+  padding: 15px;
   background-color: white;
   text-align: justify;
 }
 #aside{
   background-color: white;
-  opacity: 0.9;
-  -webkit-opacity: 0.9;
+  opacity: 0.8;
+  -webkit-opacity: 0.8;
 }
 #aside ul li{
   padding-bottom: 2px;
@@ -36,15 +54,13 @@ header{
   width: 100%;
   border-radius: 10px;
 }
-.user img{
-  width: 70%;
-}
+
 .comentario{
   padding: 5px;
   margin: 5px 5px 5px 5px;
   border: 1px solid grey;
   border-radius: 10px;
 }
-.comentario img{
-  width: 50%;
+.comentario:hover{
+  background-color: rgb(208, 208, 213);
 }
