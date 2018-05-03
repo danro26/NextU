@@ -1,0 +1,13 @@
+.cabecera{
+	height: 150px;
+}
+.imagenLogo{
+	height: 160px;
+	width: 120px;
+}
+body{
+	background-image: url(../images/amapala.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
